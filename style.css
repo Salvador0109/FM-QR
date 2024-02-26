@@ -1,0 +1,72 @@
+html{
+    background-color:hsl(212.31deg 44.83% 88.63%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.container{
+    position: relative;
+    left:50%;
+    transform: translate(-50%);
+    background-color: white;
+    width: 20vw;
+    height: 40rem;
+    border-radius: 30px;
+
+}
+
+@media (max-width: 1440px){
+   .container{
+    width:90vw;
+   }
+}
+
+.qr-container{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+
+}
+
+.qr-container img{
+    max-width: 90%;
+    height: 90%;
+    max-height: 100%;
+    border-radius: 20px;
+    display: flex;
+
+}
+
+.description-container{
+    position: absolute;
+    bottom: 0;
+    height: 28%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.description-container p:first-child{
+    font-size: 15px;
+    font-weight: 700;
+}
+.description-container p:last-child{
+    font-size: 15px;
+    font-weight: 400;
+}
